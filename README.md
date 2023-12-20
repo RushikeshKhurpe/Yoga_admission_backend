@@ -52,4 +52,4 @@ Update the MongoDB connection details in the db.js file.
 
 ## ER Model
 
-![ER Model](https://drive.google.com/file/d/1nrMj2ta5wwcI1z-tXGGTIHkvRR7MeSC-/view?usp=sharing)
+![ER Model](https://github.com/RushikeshKhurpe/Yoga_admission_frontend/blob/main/src/Images/ER%20Model.jpg)
