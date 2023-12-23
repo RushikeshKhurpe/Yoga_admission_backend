@@ -18,9 +18,6 @@ app.post('/api/admission', async (req, res) => {
 
   try {
     const existingUser = await Admission.findOne({ firstName, lastName, email });
-    if (existingUser) {
-      return res.status(400).json({ error: 'Duplicate entry: User with the same name and email already exists.' });
-    }
 
     if (!firstName || !lastName || !age || !selectedBatch) {
       return res.status(400).json({ error: 'All fields are required.' });
