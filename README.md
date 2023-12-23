@@ -49,3 +49,7 @@ Update the MongoDB connection details in the db.js file.
 4. **Run the Application:**
      ```bash
      node server.js
+
+## ER Model
+
+![ER Model](https://github.com/RushikeshKhurpe/Yoga_admission_frontend/blob/main/src/Images/ER%20Model.jpg)
