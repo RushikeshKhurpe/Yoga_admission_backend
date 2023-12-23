@@ -1,4 +1,3 @@
-// backend/server.js
 const express = require('express');
 const bodyParser = require('body-parser');
 const connectDB = require('./db');
@@ -33,9 +32,6 @@ app.post('/api/admission', async (req, res) => {
 
     const admission = new Admission({ firstName, lastName, age, selectedBatch });
     await admission.save();
-
-    // Simulate payment logic (replace with actual payment logic)
-    // const paymentResponse = await CompletePayment(admission);
 
     // if (paymentResponse.success) {
     return res.status(200).json({ success: true, message: 'Admission successful!' });
